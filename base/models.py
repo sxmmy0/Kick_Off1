@@ -17,7 +17,7 @@ from wagtail.contrib.settings.models import (
 )
 
 # import RichTextField:
-from wagtail.fields import RichTextField
+from wagtail.fields import RichTextField, StreamField
 
 # import DraftStateMixin, PreviewableMixin, RevisionMixin, TranslatableMixin:
 from wagtail.models import (
@@ -25,6 +25,7 @@ from wagtail.models import (
     PreviewableMixin,
     RevisionMixin,
     TranslatableMixin,
+    Page,
 )
 
 from wagtail.contrib.forms.panels import FormSubmissionsPanel
